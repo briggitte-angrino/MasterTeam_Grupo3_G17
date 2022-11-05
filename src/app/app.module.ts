@@ -8,7 +8,6 @@ import { PiePaginaComponent } from './Plantilla/pie-pagina/pie-pagina.component'
 import { InicioComponent } from './Plantilla/inicio/inicio.component';
 import { ErrorComponent } from './Plantilla/error/error.component';
 import { LogoComponent } from './Plantilla/logo/logo.component';
-import { SolicitudesComponent } from './modulos/solicitudes/solicitudes.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,7 @@ import { SolicitudesComponent } from './modulos/solicitudes/solicitudes.componen
     InicioComponent,
     ErrorComponent,
     LogoComponent,
-    SolicitudesComponent
+    
   ],
   imports: [
     BrowserModule,
